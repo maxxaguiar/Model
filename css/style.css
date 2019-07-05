@@ -109,7 +109,14 @@ padding: 0;
 	margin-right: 10px;
 	color: #004282;
 }
-
+#artigo1 p a {
+	text-decoration: none;
+	color: #fff;
+}
+#artigo1 p a:hover {
+	font-weight: bold;
+	color: #1174c9;
+}
 
 #artigo2 {
 	width: 300px;
@@ -129,6 +136,14 @@ padding: 0;
 	margin-left: 10px;
 	margin-right: 10px;
 	color: #004282;
+}
+#artigo2 p a {
+	text-decoration: none;
+	color: #fff;
+}
+#artigo2 p a:hover {
+	font-weight: bold;
+	color: #1174c9;
 }
 
 /*rodapé*/
