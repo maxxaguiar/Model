@@ -9,14 +9,14 @@ padding: 0;
 /*definição do body do site*/
 #container {
 	width: 900px;
-	height: 900px;
+	
 	margin: 0 auto;
 	background: #e6e6e6;
 	font-family: arial, sans-serif;
 }
 	
 
-/*início da estilização do site*/
+/*****início da estilização do site*****/
 
 #logo {
 	background: #418aca;
@@ -29,7 +29,7 @@ padding: 0;
 	padding-top: 30px;
 }
 
-/*menu do site */
+/*****menu do site****/
 
 #menu {
 	display: inline;
@@ -39,7 +39,7 @@ padding: 0;
 }
 #menu a {
 	color: #418aca;
-	background: #fff;
+	background: #e6e6e6;
 	margin: 5px;
 	padding: 5px;
 	font-weight: bold;
@@ -50,23 +50,18 @@ padding: 0;
 	text-decoration: none;
 	font-weight: bold;
 }
-
-/*sessão que divide o menu do resto site*/
-
-#session {
-	clear: both;
-	width: 100%;
-	height: 20px;
-	background: #418aca;
+#menu a:active {
+	color: #1174c9;
 }
 
-/*box com o conteúdo principal*/
+
+
+/******box com o conteúdo principal******/
 #conteudo {
 	width: 580px;
-	height: 500px;
-	margin-right: 20px;
-	margin-top: 20px;
-	background: #a6a6a6;
+	height: 630px;
+	margin: 5px 20px 10px 0;
+	background: #ccc;
 	float: left;
 }
 #conteudo h1 {
@@ -82,74 +77,51 @@ padding: 0;
 	color: #418aca;
 }
 #conteudo p {
+	font-size: 18px;
 	text-align: justify;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
 	color: #004282;
 }
 
-/*Artigos da laretal do site*/
-#artigo1 {
+/*****Artigos da laretal do site******/
+.artigo-lateral {
 	width: 300px;
-	height: 240px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	height: 200px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 	float: right;
-	background: #a6a6a6;	
+	background: #ccc;	
 }
-#artigo1 h4 {
+.artigo-lateral h4 {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #418aca;
 }
-#artigo1 p {
+.artigo-lateral p {
 	text-align: justify;
+	font-size: 15px;
 	margin-left: 10px;
 	margin-right: 10px;
 	color: #004282;
 }
-#artigo1 p a {
+.artigo-lateral p a {
 	text-decoration: none;
-	color: #fff;
+	color: #1174c9;
 }
-#artigo1 p a:hover {
+.artigo-lateral p a:hover {
 	font-weight: bold;
 	color: #1174c9;
 }
 
-#artigo2 {
-	width: 300px;
-	height: 240px;
-	margin-bottom: 20px;
-	float: right;
-	background: #a6a6a6;
-}
-#artigo2 h4 {
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: #418aca;
-}
-#artigo2 p {
-	text-align: justify;
-	margin-left: 10px;
-	margin-right: 10px;
-	color: #004282;
-}
-#artigo2 p a {
-	text-decoration: none;
-	color: #fff;
-}
-#artigo2 p a:hover {
-	font-weight: bold;
-	color: #1174c9;
-}
+
 
 /*rodapé*/
 #foot {
 	clear: both;
-	height: 100px;
+	height: 130px;
+	margin-top: 10px;
 	padding-top: 30px;
 	background: #66747b;
 	color: #fff;
